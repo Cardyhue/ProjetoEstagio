@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.container2 {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgba(180, 180, 184, 0.5);
+  fill-opacity: 0.5;
+  text-align: center;
+}
+
+.imagem {
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.banner {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.descricao {
+  padding: 2rem;
+  text-align: center;
+}
+
+.acesse {
+  text-align: center;
+}
+
+/* Media Queries para Responsividade */
+
+@media (max-width: 768px) {
+
+  .container {
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container2 {
+    padding: 1.5rem;
+  }
+
+  .imagem {
+    padding: 1.5rem;
+  }
+
+  .banner {
+    padding: 2.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .container2 {
+    padding: 1rem;
+  }
+
+  .imagem {
+    padding: 1rem;
+  }
+  
+  .banner {
+    padding: 2rem 1rem;
+  }
+}
