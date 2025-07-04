@@ -23,6 +23,7 @@ body {
   border-radius: 10px;
   background-color: rgba(180, 180, 184, 0.5);
   fill-opacity: 0.5;
+  text-align: center;
 }
 
 .imagem {
@@ -34,6 +35,11 @@ body {
 .banner {
   text-align: center;
   padding: 3rem 2rem;
+}
+
+.descricao {
+  padding: 2rem;
+  text-align: center;
 }
 
 .acesse {
