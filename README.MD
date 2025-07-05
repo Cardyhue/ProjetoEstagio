@@ -32,4 +32,27 @@ Entrega:
 	1.	Projeto publicado no GitHub em repositório público.
 	2.	README com instruções simples de como clonar e visualizar a página.
 	3.	Cada parte do site devidamente documentada em sua respectiva branch.
--------------------------------------------------------    
+-------------------------------------------------------  
+
+Como clonar e vizualizar GitHub
+Pré-requisitos:
+Ter o Git instalado.
+
+Ter um terminal (cmd, PowerShell, Git Bash, ou terminal do VS Code).
+
+Passos:
+Copie a URL do repositório
+
+Vá até o repositório no GitHub.
+
+Clique no botão verde Code → copie a URL (ex: https://github.com/usuario/repositorio.git).
+
+Abra o terminal no local onde deseja clonar o repositório.
+
+Digite o comando:
+
+git clone https://github.com/usuario/repositorio.git
+
+Entre na pasta clonada:
+
+cd repositorio
